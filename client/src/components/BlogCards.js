@@ -23,6 +23,7 @@ export default function BlogCards({ title, description, image, username, time, i
 
 
     const handleDelete = async () => {
+        console.log("Delete")
         try {
             const { data } = await axios.delete(`/api/v1/blog/delete-blog/${id}`);
             if (data?.success) {

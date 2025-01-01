@@ -42,7 +42,7 @@ const UserBlogs = () => {
                     />
                 ))
             )
-                : (<h1>You havent created a new blog</h1>)
+                : (<h1>You havent created a new story</h1>)
             }
         </div>
     );

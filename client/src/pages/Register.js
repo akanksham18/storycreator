@@ -45,7 +45,7 @@ const Register = () => {
     return (
         <>
             <form onSubmit={handleSubmit} style={{ marginTop: "10%" }}>
-                <Box maxWidth={450} display="flex" flexDirection={"column"} alignItems="center" justifyContent={"center"} margin="auto" marginTop={5} boxShadow="10px 10px 20px #ccc" padding={3} borderRadius={5}>
+                <Box maxWidth={350} display="flex" flexDirection={"column"} alignItems="center" justifyContent={"center"} margin="auto" marginTop={5} boxShadow="10px 10px 20px 20px #ccc" padding={3} borderRadius={5}>
 
                     <Typography variant='h4' sx={{ textTransform: "uppercase" }} padding={3} textAlign="center">Register</Typography>
 

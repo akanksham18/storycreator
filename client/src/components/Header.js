@@ -39,9 +39,9 @@ const Header = () => {
 
                         <Box display={'flex'} marginLeft="auto" marginRight={'auto'}>
                             <Tabs textColor='inherit' value={value} onChange={(e, val) => setValue(value)}>
-                                <Tab label="Blogs" LinkComponent={Link} to="/blogs" />
-                                <Tab label="My Blogs" LinkComponent={Link} to="/my-blogs" />
-                                <Tab label="Create Blog" LinkComponent={Link} to="/create-blog" />
+                                <Tab label="Stories" LinkComponent={Link} to="/blogs" />
+                                <Tab label="My Story" LinkComponent={Link} to="/my-blogs" />
+                                <Tab label="Create Story" LinkComponent={Link} to="/create-blog" />
                             </Tabs>
                         </Box>
                     )}

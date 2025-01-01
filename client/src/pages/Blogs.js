@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import BlogCards from '../components/BlogCards';
-import toast from 'react-hot-toast'
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -40,7 +39,9 @@ const Blogs = () => {
                     )
                 ))
             ) : (
-                <p>No blogs available</p>
+
+
+                <p style={{ fontSize: '1.5rem', color: 'black' }}>No stories available</p>
             )}
         </div>
     );

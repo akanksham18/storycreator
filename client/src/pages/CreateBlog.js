@@ -51,8 +51,8 @@ const CreateBlog = () => {
         <>
             <form onSubmit={handleSubmit} style={{ marginTop: "10%" }}>
 
-                <Box width={'50%'} marginTop="30px" border={3} borderRadius={10} padding={3} margin="auto" boxShadow={'10px 10px 20px #ccc'} display="flex" flexDirection={'column'}>
-                    <Typography variant='h2' textAlign={'center'} fontWeight="bold" padding={3} color='gray'>
+                <Box width={'40%'} marginTop="30px" border={3} borderRadius={10} padding={3} margin="auto" boxShadow={'10px 10px 20px #ccc'} display="flex" flexDirection={'column'}>
+                    <Typography variant='h3' textAlign={'center'} fontWeight="bold" padding={2} color='black'>
                         Create a Story
                     </Typography>
 
@@ -74,7 +74,7 @@ const CreateBlog = () => {
                     </InputLabel>
                     <TextField name='image' value={inputs.image} onChange={handleChange} margin='normal' variant='outlined'></TextField>
 
-                    <Button type='submit' color='primary' variant='contained'>Create</Button>
+                    <Button type='submit' sx={{ mb: 1, mt: 2, }} width={"10%"} color='primary' variant='contained'>Create</Button>
                 </Box>
 
             </form>
